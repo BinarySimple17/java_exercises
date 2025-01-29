@@ -17,27 +17,6 @@ public class Ex_05 {
 
     public void run() {
 
-        Scanner scanner = new Scanner(System.in);
-
-        while (scanner.nextInt() != 1) {//Перед каждым выводом фразы будет запрашиваться число
-            System.out.println("Не угадал!");
-        }
-
-//        Сначала фраза в первый раз, а лишь потом начнем запрашивать число
-        do {
-            System.out.println("Не угадал!");
-        } while (scanner.nextInt() != 1);
-
-//          Перед каждым выводом фразы будет запрашиваться число
-        for (; true; ) {
-            if (scanner.nextInt() == 1)
-            {
-                break;
-            }
-            System.out.println("Не угадал!");
-        }
-
-        scanner.close();        // close scanner and System.in stream
 
     }
 }

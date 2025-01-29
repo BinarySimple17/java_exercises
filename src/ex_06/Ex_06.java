@@ -21,22 +21,7 @@ public class Ex_06 {
     }
 
     public void run() {
-        Counter evenCounter = new Counter("Четные числа");
-        Counter oddCounter = new Counter("Нечетные числа");
 
-        for (int i = 1; i <= 100; i++) {
-            if (i % 2 == 0) {
-                evenCounter.add();
-            } else {
-                oddCounter.dec();
-            }
-        }
-
-        printCounterValue(evenCounter);
-        printCounterValue(oddCounter);
     }
 
-    private void printCounterValue(Counter counter) {
-        System.out.printf("%s: %d\n", counter.name, counter.counter);
-    }
 }
