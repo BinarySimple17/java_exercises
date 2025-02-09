@@ -16,6 +16,7 @@ public class Ex_08 {
 
     public void run() {
 
+/*
         Book book1 = new Book("book1", new Author("Author 1"));
         Book book2;
         try {
@@ -25,6 +26,7 @@ public class Ex_08 {
         }
 
         System.out.println("Получилось: " + (book1.getAuthor() != book2.getAuthor()));
+*/
 
     }
 }
